@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS example;
+CREATE DATABASE example;
+USE example;
+CREATE TABLE IF NOT EXISTS users (
+	id INT UNSIGNED,
+	name VARCHAR(255)
+);
